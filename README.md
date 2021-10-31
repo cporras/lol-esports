@@ -41,7 +41,7 @@ El dataset que da inicio al proyecto es tomado de [oracleselixir.com](https://or
 La colección de datos se presenta como un archivo en formato CSV y contiene datos de partidas de ligas como LCS, LEC, LCK, LPL, PCS, CBLoL, y muchas más.
 
 Cada enfrentamiento tiene su ID, liga, fecha, equipos, jugadores, estadísticas generales y resultado (equipo ganador). Debido a que se presentan estadísticas
-individuales de cada uno de los 5 jugadores de cada equipo cada partida está divida en 10 líneas dentro del CSV.
+individuales de cada uno de los 5 jugadores de cada equipo, además de 1 registro general para por equipo, cada partida está divida en 12 líneas dentro del CSV.
 
 URL de descargas: https://oracleselixir.com/tools/downloads
 
