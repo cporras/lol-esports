@@ -6,12 +6,7 @@ Análisis de ligas profesionales de League of Leguends realizado en el marco del
 - [Objetivo de la investigación](#objetivo-de-la-investigación)
 - [Origen del dataset](#origen-del-dataset)
 - [Data Wrangling y EDA](#data-wrangling-y-eda)
-  - [Carga limpieza del dataset](#carga-limpieza-del-dataset)
-  - [Análisis univariado](#análisis-univariado)
-  - [Análisis bivariado](#análisis-bivariado)
-  - [Análisis multivariado](#análisis-multivariado)
 - [Modelos Analíticos](#modelos-analíticos)
-  - [Algoritmo de Clasificación - Arbol de Decisión](#algoritmo-de-clasificación---arbol-de-decisión)
 - [Trabajo futuro](#trabajo-futuro)
 
 # Presentación del problema
@@ -52,23 +47,15 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 
 # Data Wrangling y EDA
 
-## Carga limpieza del dataset
-[Ver notebook](Notebooks/Carga_y_limpieza.ipynb)
-
-## Análisis univariado
-[Ver notebook](Notebooks/Analisis_univariado.ipynb)
-
-## Análisis bivariado
-[Ver notebook](Notebooks/Analisis_bivariado.ipynb)
-
-## Análisis multivariado
-[Ver notebook](Notebooks/Analisis_multivariado.ipynb)
+- [Carga limpieza del dataset](Notebooks/Carga_y_limpieza.ipynb)
+- [Análisis univariado](Notebooks/Analisis_univariado.ipynb)
+- [Análisis bivariado](Notebooks/Analisis_bivariado.ipynb)
+- [Análisis multivariado](Notebooks/Analisis_multivariado.ipynb)
 
 
 # Modelos Analíticos 
-
-## Algoritmo de Clasificación - Arbol de Decisión
-[Ver notebook](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
+ 
+- [Algoritmo de Clasificación - Arbol de Decisión](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
 
 
 # Trabajo futuro
