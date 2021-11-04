@@ -10,6 +10,8 @@ Análisis de ligas profesionales de League of Leguends realizado en el marco del
   - [Análisis univariado](#análisis-univariado)
   - [Análisis bivariado](#análisis-bivariado)
   - [Análisis multivariado](#análisis-multivariado)
+- [Modelos Analíticos - # Algoritmos de Clasificación](#modelos-analíticos----algoritmos-de-clasificación)
+  - [Arbol de Decisión](#arbol-de-decisión)
 - [Trabajo futuro](#trabajo-futuro)
 
 # Presentación del problema
@@ -61,6 +63,13 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 
 ## Análisis multivariado
 [Ver notebook](Notebooks/Analisis_multivariado.ipynb)
+
+
+# Modelos Analíticos - # Algoritmos de Clasificación
+
+## Arbol de Decisión
+[Ver notebook](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
+
 
 # Trabajo futuro
 
