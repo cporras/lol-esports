@@ -60,7 +60,7 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 - [Árbol de Decisión](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
 - [KNN](Notebooks/Algoritmos_clasificacion_2_KNN.ipynb)
 - [Random Forest](Notebooks/Algoritmos_clasificacion_3_random_forest.ipynb)
-- [Regresión Logistica](Notebooks/Algoritmos_clasificacion_4_regresion_logistican.ipynb)
+- [Regresión Logística](Notebooks/Algoritmos_clasificacion_4_regresion_logistica.ipynb)
 
 # Trabajo futuro
 
