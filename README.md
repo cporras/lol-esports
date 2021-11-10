@@ -7,6 +7,7 @@ Análisis de ligas profesionales de League of Leguends realizado en el marco del
 - [Origen del dataset](#origen-del-dataset)
 - [Data Wrangling y EDA](#data-wrangling-y-eda)
 - [Modelos Analíticos](#modelos-analíticos)
+  - [Algoritmos de Clasificación](#algoritmos-de-clasificación)
 - [Trabajo futuro](#trabajo-futuro)
 
 # Presentación del problema
@@ -55,8 +56,11 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 
 # Modelos Analíticos 
  
-- [Algoritmo de Clasificación - Arbol de Decisión](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
-
+## Algoritmos de Clasificación
+- [Árbol de Decisión](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
+- [KNN](Notebooks/Algoritmos_clasificacion_2_KNN.ipynb)
+- [Random Forest](Notebooks/Algoritmos_clasificacion_3_random_forest.ipynb)
+- [Regresión Logistica](Notebooks/Algoritmos_clasificacion_4_regresion_logistican.ipynb)
 
 # Trabajo futuro
 
