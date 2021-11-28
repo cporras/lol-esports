@@ -1,13 +1,14 @@
-**Proyecto Final curso de Data Science - LoL e-sports**
+Proyecto Final curso de Data Science - LoL e-sports
+============
 
 Análisis de ligas profesionales de League of Leguends realizado en el marco del curso de Data Science de Coderhouse
 
+- [Proyecto Final curso de Data Science - LoL e-sports](#proyecto-final-curso-de-data-science---lol-e-sports)
 - [Presentación del problema](#presentación-del-problema)
 - [Objetivo de la investigación](#objetivo-de-la-investigación)
 - [Origen del dataset](#origen-del-dataset)
 - [Data Wrangling y EDA](#data-wrangling-y-eda)
-- [Modelos Analíticos](#modelos-analíticos)
-  - [Algoritmos de Clasificación](#algoritmos-de-clasificación)
+- [Modelos Analíticos - Algoritmos de Clasificación](#modelos-analíticos---algoritmos-de-clasificación)
 - [Trabajo futuro](#trabajo-futuro)
 
 # Presentación del problema
@@ -54,19 +55,16 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 - [Análisis multivariado](Notebooks/Analisis_multivariado.ipynb)
 
 
-# Modelos Analíticos 
- 
-## Algoritmos de Clasificación
+# Modelos Analíticos - Algoritmos de Clasificación
 - [Árbol de Decisión](Notebooks/Algoritmos_clasificacion_1_arbol_de_decision.ipynb)
 - [KNN](Notebooks/Algoritmos_clasificacion_2_KNN.ipynb)
 - [Random Forest](Notebooks/Algoritmos_clasificacion_3_random_forest.ipynb)
 - [Regresión Logística](Notebooks/Algoritmos_clasificacion_4_regresion_logistica.ipynb)
 
+Con los algotimos explorados se encuentran mejores resultados para KNN y Regresión Logística, ambos con un accuracy score de 0.78 para los datos de prueba, pero KNN con un accuracy score mayor (0.83) para los datos de entrenamiento.
+
 # Trabajo futuro
 
-- Ordenar mejor el dataset de forma que se pueda realizar un análisis historico de las partidas y no solo predicciones con datos de partidas ya finalizadas (como se ha realizado hasta el momento). Para lograr esto la alternativa más directa parece ser convertir el dataset de un CSV a una base de datos relacional en SQLite. se Deberá
-  - Definir el modelo relacional
-  - Crear las tablas que soporten el modelo
-  - Programar el script de carga que lleve del CSV a la base de datos
-  - Definir las querys y vistas necesarias para el fácil análisis
-- Iniciar el análisis con modelos predictivos y Machine Learning
+- Ordenar mejor el dataset de forma que se agilicen otros tipos de análisis. Para lograr esto la alternativa más directa parece ser convertir el dataset de un CSV a una base de datos relacional en SQLite.
+- Continuar el análisis de los algoritmos de clasificación estudiados
+- Definir el algoritmo de clasificación que tiene mejor rendimiento con el dataset, optimizar los parametros de entrenamiento para dicho algotimo
