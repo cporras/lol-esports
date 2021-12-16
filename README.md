@@ -6,6 +6,7 @@ Análisis de ligas profesionales de League of Leguends realizado en el marco del
 - [Proyecto Final curso de Data Science - LoL e-sports](#proyecto-final-curso-de-data-science---lol-e-sports)
 - [Presentación del problema](#presentación-del-problema)
 - [Objetivo de la investigación](#objetivo-de-la-investigación)
+- [Equipo de trabajo](#equipo-de-trabajo)
 - [Origen del dataset](#origen-del-dataset)
 - [Data Wrangling y EDA](#data-wrangling-y-eda)
 - [Modelos Analíticos - Algoritmos de Clasificación](#modelos-analíticos---algoritmos-de-clasificación)
@@ -27,11 +28,13 @@ Debido a la complejidad del juego, la cantidad de factores que pueden afectar el
 El objetivo principal del proyecto es generar un modelo analítico que permita predecir el resultado de una partida de una liga profesional de League of Leguends, para alcanzarlo se debe:
 
 - Obtener y organizar los datos de resultados y estadísticas de partidas de una liga profesional de LoL.
-- Analizar los diferentes factores que influyén en el resultado de una partida, como lo pueden ser los asesinatos y [KDA](https://leagueoflegends.fandom.com/wiki/Kill_to_Death_Ratio), [creep score](https://leagueoflegends.fandom.com/wiki/Farming), conquista de objetivos neutrales como dragones y heraldos, torres destruidas; también analizará las relaciones entre los mismos y su verdadera influencia en el resultado de una partida.
-- Diseñar un modelo de datos que permita el análisis histórico de rendimiento de un equipo y sus diferentes miembros.
-- Determinar el modelo analítico correcto para procesar una serie de datos historicos que genere una predicción como la deseada.
+- Analizar los diferentes factores que influyén en el resultado de una partida, como lo pueden ser los asesinatos y [KDA](https://leagueoflegends.fandom.com/wiki/Kill_to_Death_Ratio), [creep score](https://leagueoflegends.fandom.com/wiki/Farming), conquista de objetivos neutrales como dragones y heraldos, torres destruidas; también se analizará las relaciones entre los mismos y su verdadera influencia en el resultado de una partida.
+- Determinar y generar el modelo analítico correcto para generer una predicción como la deseada.
 
+# Equipo de trabajo
 
+- Cristian Porras. Ingeniero de sistemas y especialista en el modelamiento de procesos de negocio o BPM, interesado en las posibles aplicaciones de la ciencia de datos para la automatización de tareas humanas y servicios de decisión.
+- Cristian Miranda, 
 
 # Origen del dataset
 
@@ -61,10 +64,10 @@ CSV usado para iniciar el análisis: https://oracleselixir-downloadable-match-da
 - [Random Forest](Notebooks/Algoritmos_clasificacion_3_random_forest.ipynb)
 - [Regresión Logística](Notebooks/Algoritmos_clasificacion_4_regresion_logistica.ipynb)
 
-Con los algotimos explorados se encuentran mejores resultados para KNN y Regresión Logística, ambos con un accuracy score de 0.78 para los datos de prueba, pero KNN con un accuracy score mayor (0.83) para los datos de entrenamiento.
+Con los algoritmos explorados se obtuvieron mejores resultados con K-Nearest Neighbors KNN con un accuracy score de 0.83 para los datos de entrenamiento. Se procedió a optimizar la prametrización del modelo
+
+- [Mejorando KNN](Notebooks/Algoritmos_clasificacion_5_MejorandoKNN.ipynb)
 
 # Trabajo futuro
 
-- Ordenar mejor el dataset de forma que se agilicen otros tipos de análisis. Para lograr esto la alternativa más directa parece ser convertir el dataset de un CSV a una base de datos relacional en SQLite.
-- Continuar el análisis de los algoritmos de clasificación estudiados
-- Definir el algoritmo de clasificación que tiene mejor rendimiento con el dataset, optimizar los parametros de entrenamiento para dicho algotimo
+- Ordenar mejor el dataset con el objetivo de facilitar otros tipos de análisis como por ejemplo la predicción del resultado de una partida tomando solo los datos de encuentros anterior de los equipos enfrentados. Para lograr esto la alternativa más directa parece ser convertir el dataset de un CSV a una base de datos relacional en SQLite.
