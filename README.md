@@ -34,7 +34,7 @@ El objetivo principal del proyecto es generar un modelo analítico que permita p
 # Equipo de trabajo
 
 - Cristian Porras. Ingeniero de sistemas y especialista en el modelamiento de procesos de negocio o BPM, interesado en las posibles aplicaciones de la ciencia de datos para la automatización de tareas humanas y servicios de decisión.
-- Cristian Miranda, 
+- Cristian Miranda, Tecnico en Redes Informaticas, Desarollando habilidades en Data Analytic y Data Science.    
 
 # Origen del dataset
 
